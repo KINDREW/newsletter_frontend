@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  background: hsl(234, 29%, 20%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.white {
+  display: flex;
+  justify-content: center;
+  background: hsl(0, 0%, 100%);
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 50px;
+}
+
+.left {
+  padding: 50px;
+  width: 60%;
+  font: inherit;
+  margin-top: 40px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+}
+
+p {
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+li {
+  margin-top: 10px;
+  list-style-image: url(./assets/images/icon-list.svg);
+}
+
+form {
+  margin-top: 20px;
+  width: 100%;
+}
+input {
+  margin-top: 5px;
+  width: 100%;
+  height: 40px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: 1px solid hsl(231, 7%, 60%);
+  font: inherit;
+  cursor: context-menu;
+  cursor: pointer;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  height: 40px;
+  background: hsl(235, 18%, 26%);
+  color: hsl(0, 0%, 100%);
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font: inherit;
+  cursor: pointer;
+}
+
+button:hover {
+  background: hsl(4, 100%, 67%);
+  transition: all 1s;
+}
+
+.hide {
+  display: none;
+}
+
+.white-2 {
+  background: hsl(0, 0%, 100%);
+  border-radius: 50px;
+  padding: 40px;
+  width: 350px;
+  margin-top: 50px;
+}
+
+.white-2 h1 {
+  font-size: 40px;
+  margin-top: 15px;
+}
+
+.white-2 p {
+  font-size: 15px;
+}
+
+.white-2 button {
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+@media (max-width: 768px) {
+  body {
+    margin: 0;
+    padding: 0;
+    /* background: hsl(0, 0%, 100%); */
+  }
+
+  .white {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+  }
+
+  .left {
+    /* background: red; */
+    padding: 50px;
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  .right img {
+    content: url(./assets/images/illustration-sign-up-mobile.svg);
+  }
+
+  .white h1 {
+    font-size: 50px;
+  }
+
+  .right img {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  form {
+    margin-top: 50px;
+  }
+
+  input {
+    margin-top: 20px;
+  }
+
+  .white-2 {
+    background: hsl(0, 0%, 100%);
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .hide {
+    display: none;
+  }
+}
