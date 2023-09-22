@@ -17,3 +17,7 @@ Your users should be able to:
   - The email address is not formatted correctly
 - View the optimal layout for the interface depending on their device's screen size
 - See hover and focus states for all interactive elements on the page
+
+
+Challenge is completed and hosted live 
+  https://newsletter-frontend-psi.vercel.app/
